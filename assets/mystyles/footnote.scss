@@ -1,0 +1,20 @@
+.image-container {
+    position: relative; // Create a relative positioning context for child elements
+    display: inline-block; // Allow the container to wrap around the image
+
+    img {
+        max-width: 100%; // Ensure the image fits within the container
+        height: auto; // Maintain the image's aspect ratio
+    }
+
+    .footnote {
+        position: absolute;
+        bottom: 0; // Position at the bottom
+        right: 0; // Position at the right
+        background-color: rgba(0, 0, 0, 0.7); // Optional background color for the footnote
+        color: #fff; // Optional text color for the footnote
+        padding: 5px; // Optional padding for the footnote
+        font-size: 14px;
+        text-align: right; // Align text to the right
+    }
+}

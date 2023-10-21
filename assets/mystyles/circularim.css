@@ -1,0 +1,55 @@
+
+/* Apply styles to the top-centered circular container */
+.top-centered-circle-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align to the top */
+    height: 100vh; /* Adjust as needed for vertical centering */
+}
+
+/* Apply styles to the centered circular container */
+.centered-circle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust as needed for vertical centering */
+}
+
+ /* Apply styles to the circular container - use this to scale up image */
+.circle {
+    width: 300px; /* Adjust the size of the circle as needed */
+    height: 300px;
+    border-radius: 50%; /* This creates a circular shape */
+    overflow: hidden; /* Clip the image to the circle */
+}
+
+
+/* Apply styles to the image within the circle */
+.circle-image {
+    width: 200px; /* Adjust the width as needed */
+    height: auto; /* Automatically adjust the height to maintain aspect ratio */
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintain aspect ratio and cover the circular container */
+}
+
+
+/* Apply styles to the caption */
+.caption {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: transparent; /* Initial background color */
+    color: rgb(0, 0, 0);
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+/* Change the caption background color on hover */
+.circle:hover + .caption {
+    background-color: #007bff; /* Change the background color to blue on hover */
+    color: white;
+}
+

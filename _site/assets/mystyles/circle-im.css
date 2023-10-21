@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.profile-circel-image-200 img {
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+}
+
+.profile-circel-image-250 img {
+    width: 250px;
+    height: 250px;
+    border-radius: 250px;
+}
+
+.vv img {
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.vv img:hover {
+    opacity: 0.8;
+    box-shadow: 0px 0px 5px 8px rgba(0,0,0,0.08);
+}
+
+.scaled-image {
+    width: 50%; /* Adjust the percentage to your desired scale */
+    height: auto; /* Maintains the aspect ratio */
+}
+

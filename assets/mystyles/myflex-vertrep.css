@@ -1,0 +1,51 @@
+
+.matrix {
+    display: flex;
+    justify-content: space-between; /* Add space between the matrices */
+    width: 100%;
+    margin-bottom: 20px; /* Add space between the matrix rows */
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
+
+
+.flex-container {
+    display: flex;
+    flex-direction: column; /* Arrange items vertically */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    height: 100%; /* Takes full height of the parent container */
+}
+
+.flex-item {
+    flex: 1; /* Allow items to grow and fill the available space */
+    margin: 5px; /* Add space between items */
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center; 
+    justify-content: center;
+}
+
+.box>* {
+    float: left;
+  }
+  
+  .box {
+    display: flex;
+  }
+
+  .min-content {
+    width: min-content;
+    border: 2px dotted rgb(96, 139, 168);
+  }
+  .max-content {
+    width: max-content;
+    border: 2px dotted rgb(96, 139, 168);
+  }

@@ -1,0 +1,17 @@
+current directory: /Users/sr303/Documents/GitHub/test-page.github.io/vendor/bundle/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
+/Users/sr303/.rbenv/versions/3.1.3/bin/ruby -I /Users/sr303/.rbenv/versions/3.1.3/lib/ruby/3.1.0 extconf.rb
+creating Makefile
+
+current directory: /Users/sr303/Documents/GitHub/test-page.github.io/vendor/bundle/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20231012-78018-x2npg8 sitelibdir\=./.gem.20231012-78018-x2npg8 clean
+
+current directory: /Users/sr303/Documents/GitHub/test-page.github.io/vendor/bundle/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20231012-78018-x2npg8 sitelibdir\=./.gem.20231012-78018-x2npg8
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.bundle
+ld: warning: ignoring duplicate libraries: '-lruby.3.1'
+
+current directory: /Users/sr303/Documents/GitHub/test-page.github.io/vendor/bundle/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20231012-78018-x2npg8 sitelibdir\=./.gem.20231012-78018-x2npg8 install
+/usr/bin/install -c -m 0755 fastfilereaderext.bundle ./.gem.20231012-78018-x2npg8
