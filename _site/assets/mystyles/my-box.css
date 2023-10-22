@@ -1,0 +1,83 @@
+
+
+.box { 
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+  ;
+   
+    width: 320px; /* Set the width of the box */
+    height: 320px; /* Set the height of the box */
+    margin: 0 auto; 
+    display: flex; /* Use flexbox to center the content */ 
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    background: rgb(185, 185, 185);
+    border-radius: 5px;
+  }
+
+  .box img {
+    max-width: 100%; /* Ensure the image doesn't exceed the box */
+    max-height: 100%; /* Ensure the image doesn't exceed the box */
+  }
+
+  .container-gap40 {
+    margin-bottom: 40px; /* Adjust the margin to control the gap between containers */
+  }
+  .container-gap50 {
+    margin-bottom: 50px; /* Adjust the margin to control the gap between containers */
+  }
+  .container-gap60 {
+    margin-bottom: 60px; /* Adjust the margin to control the gap between containers */
+  }
+  .container-gap70 {
+    margin-bottom: 70px; /* Adjust the margin to control the gap between containers */
+  }
+  .container-gap80 {
+    margin-bottom: 80px; /* Adjust the margin to control the gap between containers */
+  }
+  .container-gap90 {
+    margin-bottom: 90px; /* Adjust the margin to control the gap between containers */
+  }
+  .container-gap100 {
+    margin-bottom: 100px; /* Adjust the margin to control the gap between containers */
+  }
+  .container-gap120 {
+    margin-bottom: 120px; /* Adjust the margin to control the gap between containers */
+  }
+
+  
+
+  
+
+  .container-toyota {  /* Stylized panel */
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(13, 75, 111, 0.334);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    padding: 38px;
+    filter: drop-shadow(0 30px 10px rgba(0, 0, 0, 0.125));
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.readme-but{
+  color:lightskyblue;
+  background:  #8fabba;
+  padding: 10px 20px; 
+  border-radius: 5px;
+  text-transform: capitalize;
+  border: none; 
+  outline: none;
+  font-weight:lighter;
+  cursor: pointer;
+}

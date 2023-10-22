@@ -1,1 +1,1 @@
-Sitemap: http://localhost:4000/RoyVisionLab/sitemap.xml
+Sitemap: http://localhost:4000/RoyVisionLab-dev/sitemap.xml

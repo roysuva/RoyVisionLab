@@ -1,19 +1,148 @@
 ---
-layout: home
+layout: default
 background: '/img/Home-navbar-bw.png'
 ---
 
-We are interested in understanding how cell types in the retina shape distinct computations relevant for behavior. We use state-of-the-art large-scale electrophysiology, light-sheet imaging, genetic and viral tools, to map the cell-type specific circuits and study their functions in the context of natural vision and visual disorders. We use mice and tree shrew as model organisms to explore these questions in a comparative framework and test strategies for intervention in diseases such as glaucoma and diabetic retinopathy. 
+
+<!-- Page Header & Description -->
+{% if page.background %}
+<header class="masthead"
+    style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
+    {% else %}
+    <header class="masthead">
+        {% endif %}
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-lg-8  mx-auto">
+                    <div class="page-heading">
+                        <h1>{{ page.title }}</h1>
+                        {% if page.description %}
+                        <span class="subheading">{{ page.description }}</span>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Text -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-lg-8  mx-auto">
+                <div style="text-align: justify">
+                    We are interested in understanding how cell types in the retina shape distinct computations relevant
+                    for behavior. We use state-of-the-art large-scale electrophysiology, light-sheet imaging, genetic
+                    and viral tools, to map the cell-type specific circuits and study their functions in the context of
+                    natural vision and visual disorders. We use mice and tree shrew as model organisms to explore these
+                    questions in a comparative framework and test strategies for intervention in diseases such as
+                    glaucoma and diabetic retinopathy.
+                </div>
+            </div>
+        </div>
+    </div>
 
 
-<div style="padding-top: 100px; padding-bottom: 50px; ">
-    <div class="centered-container"> 
-        <img src="{{ site.baseurl }}/img/Summary-fig.png" alt="" style="width: 90%; height: auto;">
-    </div>    
-</div>
 
-<!-- <img src="/img/Summary-fig.png" alt="" style="width: 100%; height: auto; float: center; vertical-align: 100px;"/> -->
+    <div class="container py-5">
+        <!-- For Demo Purpose -->
+        <header class="text-center">
+            <p class="font-italic text-muted mb-0"></p>
+            <h2>Research themes</h2>
+        </header>
+
+        <div class="py-5" style="text-align: center; justify-content: center; align-items: center;">
+            <h3 class="font-weight-bold mb-0"></h3>
+            <p class="font-italic text-muted mb-4"></p>
+            <div class="row">
+
+                <!-- DEMO 4 Item-->
+                <div class="col-md-4 mb-3 mb-md-0 mx-auto">
+                    <div class="hover hover-4 text-dark rounded"><img src="{{ site.baseurl }}/img/HomePanel1.png"
+                            alt="">
+                        <div class="hover-overlay"></div>
+                        <div class="hover-4-content">
+                            <!-- <h3 class="hover-4-title text-uppercase font-weight-bold mb-0"><span class="font-weight-light">Image </span>Caption</h3> -->
+                            <p class="hover-4-description2 text-uppercase mb-0 small">Structural and functional
+                                organization of cell types</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- DEMO 4 Item            -->
+                <div class="col-md-4 mb-3 mb-md-0 mx-auto">
+                    <div class="hover hover-4 text-dark rounded"><img src="{{ site.baseurl }}/img/HomePanel2.png"
+                            alt="">
+                        <div class="hover-overlay"></div>
+                        <div class="hover-4-content">
+                            <!-- <h3 class="hover-4-title text-uppercase font-weight-bold mb-0"><span class="font-weight-light">Image </span>Caption</h3> -->
+                            <p class="hover-4-description2 text-uppercase mb-0 small">Adaptive computations</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- DEMO 4 Item            -->
+                <div class="col-md-4 mb-3 mb-md-0 mx-auto">
+                    <div class="hover hover-4 text-dark rounded"><img src="{{ site.baseurl }}/img/HomePanel3.png"
+                            alt="">
+                        <div class="hover-overlay"></div>
+                        <div class="hover-4-content">
+                            <!-- <h3 class="hover-4-title text-uppercase font-weight-bold mb-0"><span class="font-weight-light">Image </span>Caption</h3> -->
+                            <p class="hover-4-description2 text-uppercase mb-0 small">Wiring and signaling errors in
+                                diseases</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Add some gap -->
+    <div class="row container-gap60">
+    </div>
+
+
+    <!-- Place arrow and a readme button -->
+    <div class="row mb-20 container-gap40">
+        <div class="col text-center">
+
+            
+                <a href="{{ site.baseurl }}/pages/research.html">
+                    <button class="learn-more">
+
+                        <span class="circle" aria-hidden="true">
+                            <span class="icon arrow"></span>
+                        </span>
+                        <span class="button-text">Learn more</span>
+                    </button>
+                </a>
+             
+
+        </div>
+    </div>
 
 
 
- 
+
+    <!-- Add some gap -->
+    <div class="row container-gap40">
+    </div>
+
+    <!--        <a href="{{ site.baseurl }}/pages/research.html"> 
+        <div class="arrow">
+            <div class="arrow-top"></div>
+            <div class="arrow-bottom"></div>            
+        </div> 
+        </a> -->
+
+
+
+    <!-- 
+        <div class="row mb-20 container-gap40">
+            <div class="col text-center">
+                <button class="btn btn-primary" type="button" data-toggle="button" 
+                autocomplete="off" >
+                    Read more
+                  </button>
+            </div>
+        </div> -->

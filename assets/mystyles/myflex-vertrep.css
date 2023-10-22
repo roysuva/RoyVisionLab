@@ -17,17 +17,25 @@
 
 
 .flex-container {
-    display: flex;
-    flex-direction: column; /* Arrange items vertically */
-    justify-content: center; /* Center content horizontally */
-    align-items: center; /* Center content vertically */
-    height: 100%; /* Takes full height of the parent container */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 10vh; /* Use the full viewport height */
+  background: linear-gradient(90deg, #FF6B6B, #F06363); /* Gradient background */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Box shadow for depth */
+  padding: 20px;
+  color: #fff; /* Text color */
 }
 
 .flex-item {
+    flex: 1;
+    margin: 5px;
+    text-align: center;
     flex: 1; /* Allow items to grow and fill the available space */
     margin: 5px; /* Add space between items */
-    border: 1px solid #000;
+    /* border: 1px solid #ffffff; */
     padding: 10px;
     text-align: center; 
     justify-content: center;

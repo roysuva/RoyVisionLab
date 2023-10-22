@@ -1,0 +1,26 @@
+
+
+
+.zoom {
+  position: relative;
+  overflow: hidden;
+}
+
+.zoom:hover .image-zoom {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
+
+.image-zoom {
+  transition: transform 0.2s;
+  transform-origin: 50% 50%;
+}
+
+
+.image-zoom:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */ 
+  transform: scale(1.1); /* Adjust the scale factor as needed for the desired zoom effect */
+}

@@ -1,0 +1,78 @@
+/* DEMO 4 ============================== */
+.hover-4 img {
+  width: 70%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-10%, -10%);
+}
+
+.hover-4 .hover-overlay {
+  background: rgba(93, 67, 67, 0.4);
+  z-index: 90;
+}
+
+.hover-4-title {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 3rem;
+  z-index: 99;
+}
+
+.hover-4-description1 {
+  position: absolute;
+  top: 2.2rem;
+  left: 3rem;
+  text-align: right;
+  border-right: 3px solid #ffffff;
+  padding: 0 1rem;
+  z-index: 99;
+  transform: translateX(-1.5rem);
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.hover-4-description2 {
+  position: absolute;
+  top: 2.2rem;
+  left: 3rem;
+  text-align: right;
+  border-right: 3px solid #000000;
+  padding: 0 1rem;
+  z-index: 99;
+  transform: translateX(-1.5rem);
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+@media (min-width: 992px) {
+  .hover-4-description1 {
+    width: 50%; 
+  }
+  .hover-4-description2 {
+    width: 50%;
+  }
+}
+
+.hover-4:hover img {
+  width: 72%;
+  opacity: 0.5;
+}
+
+.hover-4:hover::after {
+  opacity: 1;
+  transform: none;
+}
+
+.hover-4:hover .hover-4-description1 {
+  opacity: 1;
+  transform: none;
+}
+
+.hover-4:hover .hover-4-description2 {
+  opacity: 1;
+  transform: none;
+}
+.hover-4:hover .hover-overlay {
+  background: rgba(0, 0, 0, 0.8);
+}

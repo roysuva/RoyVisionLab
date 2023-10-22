@@ -2,17 +2,18 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
-.profile-circel-image-200 img {
+.profile-circle-image-200 img {
     width: 200px;
     height: 200px;
     border-radius: 200px;
 }
 
-.profile-circel-image-250 img {
+.profile-circle-image-250 img {
     width: 250px;
     height: 250px;
     border-radius: 250px;
 }
+ 
 
 .vv img {
     transition: all 0.3s ease;
@@ -23,8 +24,24 @@ body {
     box-shadow: 0px 0px 5px 8px rgba(0,0,0,0.08);
 }
 
-.scaled-image {
+.scaled-image50 {
     width: 50%; /* Adjust the percentage to your desired scale */
+    height: auto; /* Maintains the aspect ratio */
+}
+.scaled-image60 {
+    width: 60%; /* Adjust the percentage to your desired scale */
+    height: auto; /* Maintains the aspect ratio */
+}
+.scaled-image70 {
+    width: 70%; /* Adjust the percentage to your desired scale */
+    height: auto; /* Maintains the aspect ratio */
+}
+.scaled-image80 {
+    width: 80%; /* Adjust the percentage to your desired scale */
+    height: auto; /* Maintains the aspect ratio */
+}
+.scaled-image90 {
+    width: 90%; /* Adjust the percentage to your desired scale */
     height: auto; /* Maintains the aspect ratio */
 }
 

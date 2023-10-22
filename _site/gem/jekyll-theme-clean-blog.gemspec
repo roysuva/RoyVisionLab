@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = "A simple blog theme based on Bootstrap 4 by Start Bootstrap."
   spec.homepage      = "https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll"
-  spec.license       = "MIT"
+  spec.license       = "Apache License 2.0"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r{^(assets|_layouts|_includes|_sass|LICENSE|README)}i) }
 

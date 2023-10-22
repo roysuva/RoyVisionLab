@@ -1,13 +1,11 @@
 @charset "UTF-8";
-/* $font-family-base: "Lora", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
 /*!
  * Bootstrap v4.6.0 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+@import url("https://fonts.googleapis.com/css?family=Mukta:700");
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -58,7 +56,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "Open-Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Gotham, "Open-Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -356,7 +354,7 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Gotham, "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 500;
   line-height: 1.2;
 }
@@ -5352,7 +5350,7 @@ a.close.disabled {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: "Open-Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Gotham, "Open-Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -5454,7 +5452,7 @@ a.close.disabled {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: "Open-Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Gotham, "Open-Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -9261,7 +9259,7 @@ img::-moz-selection {
   letter-spacing: 1px;
   text-transform: uppercase;
   border-radius: 0;
-  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Gotham, "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .btn-primary {
@@ -9283,7 +9281,7 @@ img::-moz-selection {
   position: absolute;
   border-bottom: 1px solid #e9ecef;
   background-color: white;
-  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Gotham, "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 #mainNav .navbar-brand {
   font-weight: 750;
@@ -9442,7 +9440,7 @@ header.masthead .site-heading .subheading {
   line-height: 1.1;
   display: block;
   margin: 10px 0 0;
-  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Gotham, "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 @media only screen and (min-width: 768px) {
   header.masthead .page-heading h1,
@@ -9462,13 +9460,13 @@ header.masthead .post-heading .subheading {
   font-size: 24px;
   font-weight: 600;
   margin: 10px 0 30px;
-  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Gotham, "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 header.masthead .post-heading .meta {
   font-size: 20px;
   font-weight: 300;
   font-style: italic;
-  font-family: "Open-Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Gotham, "Open-Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 header.masthead .post-heading .meta a {
   color: #fff;
@@ -9530,7 +9528,7 @@ header.masthead-reduced .site-heading .subheading {
   line-height: 1.1;
   display: block;
   margin: 10px 0 0;
-  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Gotham, "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   justify-content: center;
 }
 @media only screen and (min-width: 768px) {
@@ -9551,13 +9549,13 @@ header.masthead-reduced .post-heading .subheading {
   font-size: 24px;
   font-weight: 600;
   margin: 10px 0 30px;
-  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Gotham, "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 header.masthead-reduced .post-heading .meta {
   font-size: 20px;
   font-weight: 300;
   font-style: italic;
-  font-family: "Open-Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Gotham, "Open-Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 header.masthead-reduced .post-heading .meta a {
   color: #fff;
@@ -9605,6 +9603,428 @@ header.masthead-reduced .post-heading .meta a {
   .post-preview > a > .post-title {
     font-size: 36px;
   }
+}
+
+/* DEMO 4 ============================== */
+.hover-4 img {
+  width: 70%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-10%, -10%);
+}
+
+.hover-4 .hover-overlay {
+  background: rgba(93, 67, 67, 0.4);
+  z-index: 90;
+}
+
+.hover-4-title {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 3rem;
+  z-index: 99;
+}
+
+.hover-4-description1 {
+  position: absolute;
+  top: 2.2rem;
+  left: 3rem;
+  text-align: right;
+  border-right: 3px solid #ffffff;
+  padding: 0 1rem;
+  z-index: 99;
+  transform: translateX(-1.5rem);
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.hover-4-description2 {
+  position: absolute;
+  top: 2.2rem;
+  left: 3rem;
+  text-align: right;
+  border-right: 3px solid #000000;
+  padding: 0 1rem;
+  z-index: 99;
+  transform: translateX(-1.5rem);
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+@media (min-width: 992px) {
+  .hover-4-description1 {
+    width: 50%;
+  }
+  .hover-4-description2 {
+    width: 50%;
+  }
+}
+.hover-4:hover img {
+  width: 72%;
+  opacity: 0.5;
+}
+
+.hover-4:hover::after {
+  opacity: 1;
+  transform: none;
+}
+
+.hover-4:hover .hover-4-description1 {
+  opacity: 1;
+  transform: none;
+}
+
+.hover-4:hover .hover-4-description2 {
+  opacity: 1;
+  transform: none;
+}
+
+.hover-4:hover .hover-overlay {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.arrow {
+  cursor: pointer;
+  height: 40px;
+  left: 50%;
+  position: relative;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  transition: transform 0.1s;
+  width: 40px;
+}
+
+.arrow-top, .arrow-bottom {
+  background-color: #666;
+  height: 4px;
+  left: -5px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+}
+
+.arrow-top:after, .arrow-bottom:after {
+  background-color: #000000;
+  content: "";
+  height: 100%;
+  position: absolute;
+  top: 0;
+  transition: all 0.15s;
+}
+
+.arrow-top {
+  transform: rotate(45deg);
+  transform-origin: bottom right;
+}
+
+.arrow-top:after {
+  left: 100%;
+  right: 0;
+  transition-delay: 0s;
+}
+
+.arrow-bottom {
+  transform: rotate(-45deg);
+  transform-origin: top right;
+}
+
+.arrow-bottom:after {
+  left: 0;
+  right: 100%;
+  transition-delay: 0.15s;
+}
+
+.arrow:hover .arrow-top:after {
+  left: 0;
+  transition-delay: 0.15s;
+}
+
+.arrow:hover .arrow-bottom:after {
+  right: 0;
+  transition-delay: 0s;
+}
+
+.arrow:active {
+  transform: translateX(-50%) translateY(-50%) scale(0.9);
+}
+
+.box {
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+  width: 320px; /* Set the width of the box */
+  height: 320px; /* Set the height of the box */
+  margin: 0 auto;
+  display: flex; /* Use flexbox to center the content */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  background: rgb(185, 185, 185);
+  border-radius: 5px;
+}
+
+.box img {
+  max-width: 100%; /* Ensure the image doesn't exceed the box */
+  max-height: 100%; /* Ensure the image doesn't exceed the box */
+}
+
+.container-gap40 {
+  margin-bottom: 40px; /* Adjust the margin to control the gap between containers */
+}
+
+.container-gap50 {
+  margin-bottom: 50px; /* Adjust the margin to control the gap between containers */
+}
+
+.container-gap60 {
+  margin-bottom: 60px; /* Adjust the margin to control the gap between containers */
+}
+
+.container-gap70 {
+  margin-bottom: 70px; /* Adjust the margin to control the gap between containers */
+}
+
+.container-gap80 {
+  margin-bottom: 80px; /* Adjust the margin to control the gap between containers */
+}
+
+.container-gap90 {
+  margin-bottom: 90px; /* Adjust the margin to control the gap between containers */
+}
+
+.container-gap100 {
+  margin-bottom: 100px; /* Adjust the margin to control the gap between containers */
+}
+
+.container-gap120 {
+  margin-bottom: 120px; /* Adjust the margin to control the gap between containers */
+}
+
+.container-toyota { /* Stylized panel */
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(13, 75, 111, 0.334);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  padding: 38px;
+  filter: drop-shadow(0 30px 10px rgba(0, 0, 0, 0.125));
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+.readme-but {
+  color: lightskyblue;
+  background: #8fabba;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-transform: capitalize;
+  border: none;
+  outline: none;
+  font-weight: lighter;
+  cursor: pointer;
+}
+
+.matrix {
+  display: flex;
+  justify-content: space-between; /* Add space between the matrices */
+  width: 100%;
+  margin-bottom: 20px; /* Add space between the matrix rows */
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 10vh; /* Use the full viewport height */
+  background: linear-gradient(90deg, #FF6B6B, #F06363); /* Gradient background */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Box shadow for depth */
+  padding: 20px;
+  color: #fff; /* Text color */
+}
+
+.flex-item {
+  flex: 1;
+  margin: 5px;
+  text-align: center;
+  flex: 1; /* Allow items to grow and fill the available space */
+  margin: 5px; /* Add space between items */
+  /* border: 1px solid #ffffff; */
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+}
+
+.box > * {
+  float: left;
+}
+
+.box {
+  display: flex;
+}
+
+.min-content {
+  width: min-content;
+  border: 2px dotted rgb(96, 139, 168);
+}
+
+.max-content {
+  width: max-content;
+  border: 2px dotted rgb(96, 139, 168);
+}
+
+.zoom {
+  position: relative;
+  overflow: hidden;
+}
+
+.zoom:hover .image-zoom {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+}
+
+.image-zoom {
+  transition: transform 0.2s;
+  transform-origin: 50% 50%;
+}
+
+.image-zoom:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); /* Adjust the scale factor as needed for the desired zoom effect */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+*::before, *::after {
+  box-sizing: border-box;
+}
+
+button {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+button.learn-more {
+  width: 12rem;
+  height: auto;
+}
+
+button.learn-more .circle {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: relative;
+  display: block;
+  margin: 0;
+  width: 3rem;
+  height: 3rem;
+  background: #282936;
+  border-radius: 1.625rem;
+}
+
+button.learn-more .circle .icon {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #fff;
+}
+
+button.learn-more .circle .icon.arrow {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  left: 0.625rem;
+  width: 1.125rem;
+  height: 0.125rem;
+  background: none;
+}
+
+button.learn-more .circle .icon.arrow::before {
+  position: absolute;
+  content: "";
+  top: -0.25rem;
+  right: 0.0625rem;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-top: 0.125rem solid #fff;
+  border-right: 0.125rem solid #fff;
+  transform: rotate(45deg);
+}
+
+button.learn-more .button-text {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.75rem 0;
+  margin: 0 0 0 1.85rem;
+  color: #282936;
+  font-weight: 700;
+  line-height: 1.4;
+  text-align: center;
+  text-transform: none;
+}
+
+button:hover .circle {
+  width: 100%;
+}
+
+button:hover .circle .icon.arrow {
+  background: #fff;
+  transform: translate(1rem, 0);
+}
+
+button:hover .button-text {
+  color: #fff;
+}
+
+.dark-circle-160 {
+  width: 160px;
+  height: 160px;
+  border-radius: 160px;
+  border: 2px solid #000;
+  background-color: #000000; /* Change this to your desired background color */
+}
+
+.dark-circle-200 {
+  width: 200px;
+  height: 200px;
+  border-radius: 200px;
+  border: 2px solid #000;
+  background-color: #000000; /* Change this to your desired background color */
+}
+
+.dark-circle-250 {
+  width: 250px;
+  height: 250px;
+  border-radius: 250px;
+  border: 2px solid #000;
+  background-color: #000000; /* Change this to your desired background color */
 }
 
 /*# sourceMappingURL=main.css.map */

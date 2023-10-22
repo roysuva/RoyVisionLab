@@ -1,0 +1,23 @@
+.dark-circle-160{
+    width: 160px;
+    height: 160px;
+    border-radius: 160px;
+    border: 2px solid #000;  
+    background-color: #000000; /* Change this to your desired background color */
+}
+
+.dark-circle-200{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    border: 2px solid #000;  
+    background-color: #000000; /* Change this to your desired background color */
+}
+
+.dark-circle-250{
+    width: 250px;
+    height: 250px;
+    border-radius: 250px;
+    border: 2px solid #000;  
+    background-color: #000000; /* Change this to your desired background color */
+}
