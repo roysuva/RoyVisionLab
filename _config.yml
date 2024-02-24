@@ -1,10 +1,10 @@
 title:              Roy Vision Lab
 subtitle:           New
-email:              sroy48@ucla.edu
+email:              suva.roy@hsc.utah.edu
 #description:        
 author:             Suva Roy
 author_global:      Roy Vision Lab
-baseurl:            ""
+baseurl:            "/RoyVisionLab-dev"                     #     
 url:                https://roysuva.github.io
 header:             test header
 footer:             
