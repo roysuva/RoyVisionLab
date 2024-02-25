@@ -4,7 +4,7 @@ email:              suva.roy@hsc.utah.edu
 #description:        
 author:             Suva Roy
 author_global:      Roy Vision Lab
-baseurl:            "/RoyVisionLab"                        
+baseurl:            ""                        
 url:                https://roysuva.github.io
 header:             test header
 footer:             
